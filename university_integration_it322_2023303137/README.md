@@ -1,6 +1,6 @@
 # University Integration Platform: API-Led Connectivity
 
-## 1. Startup Narrative
+## 1. Building a Mini Integration System using Django and REST API
 The **University Integration Platform** is a centralized hub designed to simulate real-world enterprise system-to-system communication. In modern organizations, data is often siloed across different departments; this project solves that by implementing a **Hub-and-Spoke Architecture**. By connecting Student Profiles, Library Records, and Payment Services through a central Integration Hub, the system demonstrates how Django can act as a powerful middleware for data transformation and message routing.
 
 ---
@@ -36,7 +36,16 @@ Records tuition payments and financial transactions, ensuring all spokes are upd
 
 ---
 
-## 4. Technical Stack
+## 4. Learning Objectives Met
+At the completion of this implementation, the following objectives were demonstrated:
+1. **Backend Integration:** Utilized Django as a robust backend integration platform.
+2. **RESTful Implementation:** Developed APIs to simulate seamless system-to-system communication.
+3. **Pattern Application:** Successfully applied Request-Response, Data Transformation, and Message Routing patterns.
+4. **Architecture Demonstration:** Proved the efficiency of Hub-and-Spoke architecture in an organizational context.
+
+---
+
+## 5. Technical Stack
 * **Framework:** Django 4.x
 * **API Engine:** Django REST Framework (DRF)
 * **Architecture:** API-Led Connectivity
@@ -45,15 +54,11 @@ Records tuition payments and financial transactions, ensuring all spokes are upd
 
 ---
 
-## 5. How to Run the Project
+## 6. 🚀 How to Run the Project
 
-### Installation & Launch
-1. **Clone the repository** and open your terminal in the project folder.
-2. **One-Step Initialization:** Run the following block to set up the environment, install dependencies, migrate the database, and start the server.
-   ```cmd
-   python -m venv venv
-   .\venv\Scripts\activate
-   pip install django djangorestframework
-   python manage.py migrate
-   python manage.py runserver
-   # The Integration Hub and REST APIs will be accessible at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+### System Setup & Initialization
+
+1. **Prepare Environment:** `python -m venv venv`
+2. **Activate and Install Dependencies:** `.\venv\Scripts\activate` and `pip install django djangorestframework`
+3. **Migrate and Start Server:** `python manage.py migrate` and `python manage.py runserver`
+    * *Running at: http://127.0.0.1:8000*
